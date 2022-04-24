@@ -1,0 +1,136 @@
+#title{
+    background-image: url("/images/scaled.jpg");
+    color: white;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    color: #1c1a1a;
+}
+/* Navigation bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    background-color: #1c1a1a;
+    border-radius: 8px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: white;
+}
+
+
+/* button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title img */
+.doggo{
+    /* height: 70%; */
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;
+}
+
+/* MID SECTION */
+
+#features{
+    padding: 5% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5% 1%;
+}
+
+/* testemonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #E78EA9;
+    color: white;
+    
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+/* cta section */
+#cta{
+    text-align: center;
+    background-color: white;
+    color: #005A8D;
+    padding: 15% 15%;
+    font-size: 3rem;
+}
+
+#contact{
+    text-align: center;
+    background-color: #E78EA9;
+    color: white;
+    padding: 2% 29%;
+    font-size: 2.5rem;
+    font-weight: 0;
+}
+
+.contactHeading{
+    font-size: 2.5rem;
+    line-height: 1;
+    /* width: 60%; */
+    padding-top: 60px;
+}
+
+.headingCta{
+    font-size: 3rem;
+    line-height: 1;
+}
+/* footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.genre{
+    width: 140px;
+    height: 140px;
+    padding: 3% 2%;
+}
+.row-h3{
+    font-size: 1.8rem;
+}

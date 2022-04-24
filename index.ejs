@@ -1,0 +1,140 @@
+
+<%- include("partials/header") -%>
+
+  <section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">books&bargain</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#pricing">About Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+          </li>
+      </ul>
+   </div>
+  </nav>
+
+    <!-- Title -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Looking for a place to find books?</h1>
+        <form action="post">
+        <div class="form-group">
+            <input type="email" class="form-control form-control-lg" id="inputBook" aria-describedby="emailHelp" placeholder="Enter book name">
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </div>
+    </form>
+        
+        
+      </div>
+    </div>
+    
+  </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 feature-box">
+        <a href="contact.ejs">
+            <img class="genre" src="/images/drama.jpeg" alt="">
+        </a>
+        <h3 style="color: #005A8D;">Drama</h3>
+        <p>Drama makes you feel alive</p>
+      </div>
+      <div class="col-lg-4 col-md-12 feature-box">
+        <a href="contact.ejs">
+            <img class="genre" src="/images/classics.png" alt="">
+        </a>
+        <h3 style="color: #005A8D;">Classics</h3>
+        <p>A portal to the past</p>
+      </div>
+      <div class="col-lg-4 col-md-12 feature-box">
+        <a href="contact.ejs">
+            <img class="genre" src="/images/thriller.jpeg" alt="">
+        </a>
+        <h3 style="color: #005A8D;">Thriller</h3>
+        <p>Every body loves a killer chase</p>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Find the best prices of your favourite books. All at once place.</h2>
+          
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Get delivery dates and pick out best copies based on the reviews of your fellow readers.</h2>
+          
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="headingCta"><em>"If you don’t like to read, you haven’t found the right book." </em></h3>
+
+    <h3 style="text-align: right;">- J. K Rowling</h3>
+
+  </section>
+
+  <section id="contact">
+
+    <h3 class = "contactHeading">Contact us on </h3>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 feature-box">
+            <i class="fa-brands fa-facebook-f fa-lg"></i>
+            <h3 >Books&Bargain</h3>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 feature-box">
+            <i class="fa-brands fa-instagram fa-lg"></i>
+            <h3 >@b&b</h3>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 feature-box">
+            <i class="fa-solid fa-envelope fa-lg"></i>
+            <h3 >b&b@gmail.com</h3>
+        </div>
+      </div>
+    
+
+  </section>
+
+  <%- include("partials/footer") -%>
+
